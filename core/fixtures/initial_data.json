@@ -1,0 +1,20 @@
+[
+    {
+        "pk": 1,
+        "model": "auth.user",
+        "fields": {
+            "username": "joelmir",
+            "first_name": "",
+            "last_name": "",
+            "is_active": true,
+            "is_superuser": true,
+            "is_staff": true,
+            "last_login": "2011-08-26 18:48:06",
+            "groups": [],
+            "user_permissions": [],
+            "password": "sha1$3a28a$b7a20236f1bfaf61b3cd054a8b994b09b8e48cd5",
+            "email": "joedekid@gmail.com",
+            "date_joined": "2011-08-17 19:39:45"
+        }
+    }
+]
