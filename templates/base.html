@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="EventeX" />
+  <meta http-equiv='content-Language' content='en-US' />
+
+  <title>EventeX</title>
+
+</head>
+<body>
+  <div id="page">
+    <div id="header">
+      <center>
+        <img src="{{ STATIC_URL }}img/logo.png" height="261" width="360">
+      </center>
+    </div>
+
+    <hr>
+	
+    <div id="content">
+        {% block content%}
+        
+        {%endblock content%}
+    </div>
+    <hr>
+    
+  </div>
+</body>
+
+</html>
+

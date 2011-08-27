@@ -6,11 +6,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^inscricao/',include('subscription.urls',namespace='subscription')),
+    url(r'^(\d+)/sucesso/$', 'success', name='success'),
 	url(r'^$', homepage),
-    # url(r'^eventex/', include('eventex.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
 )
 urlpatterns += staticfiles_urlpatterns()
